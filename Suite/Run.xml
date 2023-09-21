@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Login">
+    <parameter name="browserName" value="CHROME"></parameter>
+    <test thread-count="5" name="TrainingProject">
+        <classes>
+            <!--<class name="Test case path"/>-->
+            <class name="TestCases.LoginTest"></class>
+        </classes>
+    </test>
+</suite>
